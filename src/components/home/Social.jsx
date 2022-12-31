@@ -9,7 +9,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-instagram"></i>
+        <i className="uil uil-instagram"></i>
       </a>
       <a
         href="https://www.instagram.com/"
@@ -17,7 +17,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-youtube"></i>
+        <i className="uil uil-youtube"></i>
       </a>
       <a
         href="https://www.instagram.com/"
@@ -25,7 +25,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-github-alt"></i>
+        <i className="uil uil-github-alt"></i>
       </a>
     </div>
   );
