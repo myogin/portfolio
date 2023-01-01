@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { projectsData, projectsNav } from "./Data";
 import WorksItems from "./WorksItems";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Works = () => {
   const [item, setItem] = useState({ name: "all" });
@@ -39,9 +40,11 @@ const Works = () => {
       </div>
 
       <div className="work__container container grid">
-        {projects.map((item) => {
-          return <WorksItems item={item} key={item.id} />;
-        })}
+        <AnimatePresence>
+          {projects.map((item) => {
+            return <WorksItems item={item} key={item.id} />;
+          })}
+        </AnimatePresence>
       </div>
     </div>
   );
