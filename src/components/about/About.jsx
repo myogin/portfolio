@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Yogi-CV.pdf";
 import Info from "./info";
 
 const About = () => {
@@ -15,12 +15,15 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequatur, nesciunt beatae sequi, aspernatur, quam labore autem
-            veritatis a rem exercitationem natus ipsum iusto nisi inventore
-            dignissimos porro cum laborum. Repudiandae!
+            As a software engineer with experience in both front-end and
+            back-end development, I have a strong understanding of the full
+            development lifecycle. I have a proven track record of delivering
+            successful projects on time and have developed strong
+            problem-solving and communication skills. I am excited to continue
+            growing as a software engineer and contribute to the success of
+            innovative projects.
           </p>
-          <a download=" " href={CV} className="button button--flex">
+          <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               className="button__icon"

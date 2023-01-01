@@ -25,7 +25,7 @@ const Footer = () => {
         </ul>
         <div className="footer__social">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/madeyoginugraha/"
             className="footer__social-link "
             target="_blank"
             rel="noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => {
             <i className="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/madeyoginugraha/"
             className="footer__social-link "
             target="_blank"
             rel="noreferrer"
@@ -41,7 +41,7 @@ const Footer = () => {
             <i className="bx bxl-youtube"></i>
           </a>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/madeyoginugraha/"
             className="footer__social-link "
             target="_blank"
             rel="noreferrer"

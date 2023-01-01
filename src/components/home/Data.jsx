@@ -57,10 +57,11 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Software Enginer</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae
-        itaque! Dicta nostrum pariatur nobis tempore obcaecati iste repudiandae
-        enim eveniet voluptatum mollitia ut accusantium at, nesciunt dolor,
-        blanditiis distinctio!
+        Hello! My name is Yogi and I am a software engineer with 3 years of
+        experience in the industry. I have a strong background in programming
+        and have worked on a variety of projects. I am always seeking new
+        challenges and opportunities to grow as a software engineer, and I
+        welcome the chance to work with talented individuals and teams.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

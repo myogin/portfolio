@@ -19,7 +19,7 @@ const Contact = () => {
               </span>
 
               <a
-                href="https://www.instagram.com/madeyoginugraha/"
+                href="mailto:yoginugraha19@gmail.com"
                 className="contact__button"
               >
                 Write me
@@ -33,7 +33,9 @@ const Contact = () => {
               <span className="contact__card-data">+62895342574617</span>
 
               <a
-                href="https://www.instagram.com/madeyoginugraha/"
+                href="https://api.whatsapp.com/send/?phone=%2B62895342574617&text&type=phone_number&app_absent=0"
+                target="_blank"
+                rel="noreferrer"
                 className="contact__button"
               >
                 Write me
@@ -48,6 +50,8 @@ const Contact = () => {
 
               <a
                 href="https://www.instagram.com/madeyoginugraha/"
+                target="_blank"
+                rel="noreferrer"
                 className="contact__button"
               >
                 Write me

@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/madeyoginugraha/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -12,7 +12,7 @@ const Social = () => {
         <i className="uil uil-instagram"></i>
       </a>
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/madeyoginugraha/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -20,7 +20,7 @@ const Social = () => {
         <i className="uil uil-youtube"></i>
       </a>
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/madeyoginugraha/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"

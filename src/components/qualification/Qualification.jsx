@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./qualification.css";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -43,14 +43,15 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
+                <h3 className="qualification__title">Information Technology</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  ITB STIKOM Bali - Institute
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2016 - 2020
                 </div>
               </div>
+
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
@@ -64,45 +65,12 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Software Enginer</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  SMKN 1 Denpasar - Industrial high school
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Developer</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2013 - 2016
                 </div>
               </div>
             </div>
@@ -114,12 +82,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">Software Enginer</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  PT Grune Teknologi - FullTime
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2021 - Present
                 </div>
               </div>
               <div>
@@ -135,24 +103,24 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  CV MERU BALI - FullTime
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2020 - 2021
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">Programmer</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  CV Harmoni Permata - PartTime
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2017 - 2018
                 </div>
               </div>
               <div>
@@ -167,14 +135,31 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
+
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
+                <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Gekan Media Solution - Freelancer
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - present
+                  <i className="uil uil-calendar-alt"></i>2015 - 2016
                 </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Programmer</h3>
+                <span className="qualification__subtitle">
+                  Pilar Kreatif Studio - Internship
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>2015 - 2015
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
