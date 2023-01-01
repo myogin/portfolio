@@ -83,7 +83,7 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div">
+            <div className="contact__form-div contact__form-area">
               <label htmlFor="" className="contact__form-tag">
                 Project
               </label>
@@ -91,7 +91,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 name="project"
-                className="contact__form-area"
+                className="contact__form-input"
                 placeholder="Write your project"
               ></textarea>
             </div>
