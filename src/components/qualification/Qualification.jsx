@@ -81,13 +81,30 @@ const Qualification = () => {
             }`}
           >
             <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Software Enginer</h3>
+                <span className="qualification__subtitle">
+                  Legacy FA Pte. Ltd. - FullTime
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i>2023 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Software Enginer</h3>
                 <span className="qualification__subtitle">
                   PT Grune Teknologi - FullTime
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>2021 - Present
+                  <i className="uil uil-calendar-alt"></i>2021 - 2023
                 </div>
               </div>
               <div>
